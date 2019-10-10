@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="./css/styles.css" />
+      <title>Form</title>
+    </head>
+
+    <body>
+      <div class="mainBlock">
+
+        <form name='form'>
+            Прізвище: <input class="blockOne" type='text' name='lastName'/><br>
+            Ім'я: <input class="blockOne" type='text' name='firstName'/><br>
+            По батькові: <input class="blockOne" type='text' name='patronymic'/><br><br>
+            Дата народження: <br>
+            День: <input class="blockTwo" type='text' name='day'/><br>
+            Місяць: <input class="blockTwo" type='text' name='month'/><br>
+            Рік: <input class="blockTwo" type='text' name='year'/><br><br>
+        </form>
+
+        <input class="button" type='submit' value="Відправити" onClick='onSubmit()'/>
+
+        <script src='./js/script.js'></script>
+      </div>
+    </body>
+</html>

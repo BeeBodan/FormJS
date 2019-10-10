@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box; 
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* =============================================== */
+
+.mainBlock {
+	width: 310px;
+	padding: 15px;
+	margin: 0 auto 0 auto;
+
+	line-height: 30px;
+}
+
+form {
+	font-family: Lucida Console, Arial, serif;
+	font-size: 12px;
+}
+
+.blockOne, .blockTwo {
+	float: right;
+	border: inset;
+	margin-top: 5px;
+	background: #86ABEB;
+}
+
+input {
+	outline: none;
+
+	font-family: Georgia, Arial, serif;
+	font-style: italic;
+	color: white;
+}
+
+.blockTwo {
+	width: 50px;
+	margin-right: 80px;
+}
+
+.button {
+	padding: 3px 10px 3px 10px;
+
+	font-family: Lucida Console, Arial, serif;
+	font-size: 12px;
+	font-style: normal;
+	color: black;
+}

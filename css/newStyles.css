@@ -1,0 +1,22 @@
+h2 {
+	color: olive;
+	font-family: Lucida Console, Arial, serif;
+}
+
+.fio {
+	font-family: Georgia, Arial, serif;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 7px 0 7px 0;
+}
+
+span {
+	font-family: Lucida Console, Arial, serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.button {
+	margin-top: 10px;
+}
